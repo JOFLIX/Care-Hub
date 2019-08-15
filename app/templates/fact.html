@@ -34,69 +34,69 @@ crossorigin="anonymous"></script>
 <title></title>
 </head>
 <body>
-<header role="banner">
-<div class="top-bar">
- <div class="container">
-    <div class="row">
-      <div class="col-md-6 col-sm-6 col-5">
-        <ul class="social list-unstyled">
-          <li><a href="#"><span class="fa fa-facebook"></span></a></li>
-          <li><a href="#"><span class="fa fa-twitter"></span></a></li>
-          <li><a href="#"><span class="fa fa-instagram"></span></a></li>
-        </ul>
-      </div>
-      <div class="col-md-6 col-sm-6 col-7 text-right">
-        <p class="mb-0">
-          <a href="{{url_for('auth.login')}}" class="cta-btn" >Make an Appointment</a></p>
-      </div>
-    </div>
- </div>
-</div>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
- <div class="container">
-    <a class="navbar-brand" href="index.html">Care<span>HuB</span>  </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-​
-    <div class="collapse navbar-collapse" id="navbarsExample05">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">Home</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown04">
-            <a class="dropdown-item" href="#">Support</a>
-            <a class="dropdown-item" href="#">Facts</a>
-            <a class="dropdown-item" href="services.html">Providers</a>
+    <header role="banner">
+        <div class="top-bar">
+          <div class="container">
+             <div class="row">
+               <div class="col-md-6 col-sm-6 col-5">
+                 <ul class="social list-unstyled">
+                   <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+                   <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+                   <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+                 </ul>
+               </div>
+               <div class="col-md-6 col-sm-6 col-7 text-right">
+                 <p class="mb-0">
+                   <a href="{{url_for('auth.login')}}" class="cta-btn" >Make an Appointment</a></p>
+               </div>
+             </div>
           </div>
-​
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="doctors.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors</a>
-          <div class="dropdown-menu" aria-labelledby="dropdown05">
-            <a class="dropdown-item" href="doctors.html">Find Doctors</a>
-            <a class="dropdown-item" href="#">Practitioner</a>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container">
+             <a class="navbar-brand" href="/">Care <span>HuB</span>  </a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+     ​
+             <div class="collapse navbar-collapse" id="navbarsExample05">
+               <ul class="navbar-nav ml-auto">
+                 <li class="nav-item">
+                   <a class="nav-link active" href="/">Home</a>
+                 </li>
+                 <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Services</a>
+                   <div class="dropdown-menu" aria-labelledby="dropdown04">
+                     <a class="dropdown-item" href="/support">Support</a>
+                     <a class="dropdown-item" href="">Facts</a>
+                     <a class="dropdown-item" href="services.html">Providers</a>
+                   </div>
+     ​
+                 </li>
+                 <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle" href="doctors.html" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Doctors</a>
+                   <div class="dropdown-menu" aria-labelledby="dropdown05">
+                     <a class="dropdown-item" href="doctors.html">Find Doctors</a>
+                     <a class="dropdown-item" href="#">Practitioner</a>
+                   </div>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="news.html">News</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link"href="{{url_for('auth.login')}}">Blog</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="/about">About</a>
+                 </li>
+                 <li class="nav-item">
+                   <a class="nav-link" href="/contact">Contact</a>
+                 </li>
+               </ul>
+             </div>
           </div>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="news.html">News</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link"href="{{url_for('auth.login')}}">Blog</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
- </div>
-</nav>
-
+        </nav>
+      </header>
 <div class="container">
 <div class="row">
 <div class="col-4 card">
@@ -111,9 +111,9 @@ crossorigin="anonymous"></script>
   <p>If a cancer is suspected from your symptoms:</p>
   <p>1.Your doctor will examine you to look for abnormalities such as a lump under the skin or an enlarged liver. </p>
   <p>You may be referred for tests such as X-rays, scan, blood tests, endoscopy, colonoscopy, bronchoscopy, etc depending on where the suspected cancer is situated. These tests can often find the exact site of a suspected cancer. However, a biopsy** is often needed to be certain that the abnormality is a cancer and not something else (such as a benign tumour).</p>
-  
 
-  
+
+
 </div>
 <div class="col-4 card">
   <h2>Some questions you may want to ask your doctor</h2>
@@ -145,7 +145,7 @@ crossorigin="anonymous"></script>
         <li>Unusual vaginal bleeding or discharge</li>
         <li>Thickening or lump in the breast or other parts of the body</li>
         <li>Any new skin change</li>
-        
+
         </ol>
     </div>
     <div class="col-6" styles="display:block;float-direction:float-left">
@@ -160,7 +160,7 @@ crossorigin="anonymous"></script>
     <li>Surgery</li>
     <p>It may be possible to operate and remove malignant turmours.</p>
    </div>
-   
+
     <div class="col-4">
       <img src="https://images.agoramedia.com/everydayhealth/gcms/What-Is-Chemotherapy-722x406.jpg" alt="Radiotherapy" class="img-fluid img-thumbnail">
       <li>Chemotherapy</li>
@@ -177,7 +177,7 @@ crossorigin="anonymous"></script>
           <img src="https://previews.123rf.com/images/tashatuvango/tashatuvango1604/tashatuvango160401152/55457457-hormone-therapy-medical-concept-with-selective-focus-hormone-therapy-pills-injections-and-syringe-wi.jpg" alt="" class="img-fluid img-thumbnail">
           <li>Hormone therapy: </li>
           <p>This is where drugs are used to block the effects of hormones. This treatment may be used for cancers that are “hormone sensitive” such as some cancers of the breast, prostate and uterus.</p>
-         
+
       </div>
 
   </div>
@@ -197,9 +197,18 @@ crossorigin="anonymous"></script>
       <img src="https://cdn2.poz.com/56602_CHFa-18-042.jpg_5dc71507-e2c0-495c-9fe5-35c68961a540.jpeg" alt="immunotherapy" class="img-fluid img-thumbnail">
       <li>Immunotherapy: </li>
       <p>Some treatments can boost the immune system to help to fight cancer. More specific immunotherapy involves injections of antibodies which aim to attack and destroy certain types of cancer cells.</p>
-     
+
     </div>
   </div>
   </div>
+  <script src="static/js/jquery-3.2.1.min.js"></script>
+  <script src="static/js/popper.min.js"></script>
+  <script src="static/js/bootstrap.min.js"></script>
+  <script src="static/js/owl.carousel.min.js"></script>
+  <script src="static/js/bootstrap-datepicker.js"></script>
+  <script src="static/js/jquery.timepicker.min.js"></script>
+  <script src="static/js/jquery.waypoints.min.js"></script>
+  <script src="static/js/main.js"></script>
+
   </body>
 </html>
