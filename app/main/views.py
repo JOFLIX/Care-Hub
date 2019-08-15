@@ -55,6 +55,17 @@ def provider():
     title = 'Providers'
     return render_template("provider.html", title = title)
 
+#########***************** Services **********************************#############
+#######***************************************************************##############
+@main.route("/services")
+def services():
+    """
+    A view that displays the pattient service provider(s) page
+
+    """
+    title = 'Providers'
+    return render_template("services.html", title = title)
+
 #########***************** FACTS **********************************#############
 #######***************************************************************##############
 @main.route("/fact")
