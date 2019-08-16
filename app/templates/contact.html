@@ -29,14 +29,14 @@
          <div class="row">
            <div class="col-md-6 col-sm-6 col-5">
              <ul class="social list-unstyled">
-               <li><a href="https://www.facebook.com/"><span class="fa fa-facebook"></span></a></li>
+               <li><a href="https://www.facebook.com/CareHub-112615073428983/"><span class="fa fa-facebook"></span></a></li>
                <li><a href="https://twitter.com/home?lang=en"><span class="fa fa-twitter"></span></a></li>
                <li><a href="https://www.instagram.com/carehub2788/"><span class="fa fa-instagram"></span></a></li>
              </ul>
            </div>
            <div class="col-md-6 col-sm-6 col-7 text-right">
              <p class="mb-0">
-               <a href="{{url_for('auth.login')}}" class="cta-btn" >Make an Appointment</a></p>
+               <a href="" class="cta-btn" >Make an Appointment</a></p>
            </div>
          </div>
       </div>
@@ -157,6 +157,8 @@
           </div>
         </div>
       </div>
+
+      <div class="mapouter card-body"><div class="gmap_canvas"><iframe width="1080" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=kenya&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net/blog/best-wordpress-themes/">wordpress</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:1080px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:1080px;}</style></div>
     </section>
 
 
@@ -175,7 +177,8 @@
             <ul class="footer-link list-unstyled">
               <li><a href="/provider">Find a doctor</a></li>
               <li><a href="/provider">Urgent Care</a></li>
-              <li><a href="/provider">Emergency Care</a></li>
+              <div id="MyLiveChatContainer">Emergency Care</div>
+              <!-- <li><a href="/provider">Emergency Care</a></li> -->
               <li><a href="/facts">Procedures &amp; Treatments</a></li>
               <li><a href="/auth/login">Online Services</a></li>
             </ul>
@@ -216,11 +219,11 @@
             <hr class="border-t">
           </div>
           <div class="col-md-6 col-sm-12 copyright">
-            <p>&copy; 2018 Colorlib Medi+. Designed &amp; Developed by <a href="https://colorlib.com/">Colorlib</a></p>
+            <p>&copy; 2019 CareHub. Designed &amp; Developed by <a href="https://www.facebook.com/CareHub-112615073428983/">CareHub<a>+</a></a></p>
           </div>
           <div class="col-md-6 col-sm-12 text-md-right text-sm-left">
             <!-- <ul class="social list-unstyled"> -->
-              <li><a href="https://www.facebook.com/"><span class="fa fa-facebook"></span></a></li>
+              <li><a href="https://www.facebook.com/CareHub-112615073428983/"><span class="fa fa-facebook"></span></a></li>
               <li><a href="https://twitter.com/home?lang=en"><span class="fa fa-twitter"></span></a></li>
               <li><a href="https://www.instagram.com/carehub2788/"><span class="fa fa-instagram"></span></a></li>
 
@@ -275,12 +278,18 @@
                 <input type="submit" value="Send Message" class="btn btn-primary">
               </div>
             </form>
+
           </div>
 
         </div>
       </div>
     </div>
+    <!--Chat Text Link will appear here-->
+    <!-- <div id="MyLiveChatContainer"></div> -->
 
+    <!--Add the following script at the bottom of the web page (before </body></html>)-->
+    <script type="text/javascript">function add_chatlink(){var hccid=23914252;var nt=document.createElement("script");nt.async=true;nt.src="https://www.mylivechat.com/chatlink.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+    add_chatlink();</script>
     <script src="static/js/jquery-3.2.1.min.js"></script>
     <script src="static/js/popper.min.js"></script>
     <script src="static/js/bootstrap.min.js"></script>
